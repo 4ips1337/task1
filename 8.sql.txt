@@ -1,0 +1,4 @@
+SELECT AVG(g.grade) as avg_grade
+FROM grades g
+JOIN courses c ON g.course_id = c.id
+WHERE c.teacher_id = ?;  -- Replace with specific teacher_id

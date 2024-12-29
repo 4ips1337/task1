@@ -1,0 +1,3 @@
+SELECT c.name
+FROM courses c
+WHERE c.teacher_id = ?;  -- Replace with specific teacher_id

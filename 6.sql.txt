@@ -1,0 +1,3 @@
+SELECT s.name
+FROM students s
+WHERE s.group_id = ?;  -- Replace with specific group_id

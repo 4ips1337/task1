@@ -1,0 +1,4 @@
+SELECT DISTINCT c.name
+FROM courses c
+JOIN grades g ON c.id = g.course_id
+WHERE g.student_id = ?;  -- Replace with specific student_id

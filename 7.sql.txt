@@ -1,0 +1,4 @@
+SELECT s.name, g.grade
+FROM students s
+JOIN grades g ON s.id = g.student_id
+WHERE s.group_id = ? AND g.course_id = ?;  -- Replace with specific group_id and course_id
